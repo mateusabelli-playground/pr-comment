@@ -1,7 +1,7 @@
 name: "units-test"
 on:
   pull_request:
-    types: [open, reopened, syncronized]
+    types: [opened, reopened, syncronized]
 
 jobs:
   test:
